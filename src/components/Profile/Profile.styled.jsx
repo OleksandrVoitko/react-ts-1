@@ -1,9 +1,6 @@
 import { styled } from 'styled-components';
 
 export const DivProfile = styled.div`
-  margin-left: auto;
-  margin-right: auto;
-
   width: 400px;
 
   background-color: white;
@@ -61,6 +58,8 @@ export const UlStats = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    width: 100%;
 
     padding-top: 30px;
     padding-bottom: 30px;
